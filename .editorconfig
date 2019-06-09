@@ -1,0 +1,35 @@
+# EditorConfig is awesome: https://EditorConfig.org
+# top-most EditorConfig file
+root = true
+
+# 总体设置
+# 当选择tab缩进时:	indent_style=tab;tab_width=2;
+# 当选择space缩进时:	indent_style=space;indent_space=2;
+[*]
+end_of_line = lf
+indent_style = tab
+tab_width = 2
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# json文件，不改变
+[*.json]
+insert_final_newline = ignore
+
+# 压缩的js文件，不改变
+[**.{min,bundle}.js]
+indent_style = ignore
+insert_final_newline = ignore
+
+# Makefiles always use tabs for indentation
+[Makefile]
+indent_style = tab
+
+# Batch files use tabs for indentation
+[*.bat]
+indent_style = tab
+
+# md文件，需要保留最后的空格
+[*.md]
+trim_trailing_whitespace = false

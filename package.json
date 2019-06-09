@@ -1,0 +1,20 @@
+{
+  "name": "qingkooo.github.io",
+  "description": "blog",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "clear": "rm -rf ./docs/.vuepress/dist"
+  },
+  "author": "qingkooo <qingkooo@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qingkooo/qingkooo.github.io/issues"
+  },
+  "homepage": "http://qingkooo.cc",
+  "devDependencies": {
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "vuepress": "^1.0.0"
+  }
+}
