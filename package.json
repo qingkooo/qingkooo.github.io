@@ -4,7 +4,8 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "clear": "rm -rf ./docs/.vuepress/dist"
+		"clear": "rm -rf ./docs/.vuepress/dist",
+		"deploy": "sh ./deploy.sh"
   },
   "author": "qingkooo <qingkooo@163.com>",
   "license": "MIT",
