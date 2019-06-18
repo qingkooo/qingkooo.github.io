@@ -1,5 +1,5 @@
 module.exports = {
-	title: "Qingkooo's Blog",
+	title: "QyingKou's blog",
 	description: "网站description",
 	configureWebpack: {
 		resolve: {
@@ -17,8 +17,8 @@ module.exports = {
 	serviceWorker: {
 		// 当网站更新（即 Service Worker 更新）时，它会提供一个 refresh 按钮，允许用户立刻刷新内容
 		updatePopup: {
-			message: "New content is available.",
-			buttonText: "Refresh"
+			message: "新内容已发布了",
+			buttonText: "更新"
 		}
 	},
 	themeConfig: {
@@ -28,7 +28,7 @@ module.exports = {
 		search: true,
 		searchMaxSuggestions: 10,
 		repo: "qingkooo/qingkooo.github.io", // 仓库地址，显示在右上角的链接
-		// repoLabel: '查看源码', // 仓库链接文字，默认会自动显示为"GitHub"/"GitLab"/"Bitbucket"/"Source"
+		repoLabel: "Issue", // 仓库链接文字，默认会自动显示为"GitHub"/"GitLab"/"Bitbucket"/"Source"
 		// nav: [{ text: "Home", link: "/" }],
 
 		/* 侧边栏 */
